@@ -29,5 +29,5 @@ sed -i 's/OPENSHIFT_APP_NAME/'$OPENSHIFT_APP_NAME'/' $settingsfile
 #do
 #  renamed=$(echo $i | sed 's/.js$//g')
 #  ln -s $i $renamed
-done
-popd
+#done
+#popd
