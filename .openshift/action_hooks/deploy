@@ -31,3 +31,5 @@ sed -i 's/OPENSHIFT_APP_NAME/'$OPENSHIFT_APP_NAME'/' $settingsfile
 #  ln -s $i $renamed
 #done
 #popd
+
+chmod 777 $OPENSHIFT_REPO_DIR/php/ -R
